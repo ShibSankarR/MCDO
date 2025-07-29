@@ -1,0 +1,90 @@
+@import url("font-awesome.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
+
+
+
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif; margin: 0; padding: 0; font-size: 15px; line-height:normal; font-weight: 400;
+}
+p{font-size: 16px; line-height: 24px;}
+a{color:#666;transition: All .7s;}
+a:hover, a:focus{ text-decoration: none;transition: All .7s;}
+h1, .h1 { font-size: 32px;}
+h2, .h2 { font-size: 26px;}
+img { max-width: 100%;}
+
+.wrapper{ width: 100%;}
+.logo{padding-top: 17px; padding-bottom: 10px; display: inline-block;}
+
+
+
+
+.container-custom{ max-width: 1400px; padding-left: 15px; padding-right: 15px; margin: 0 auto;}
+section{ padding-top: 80px; padding-bottom: 80px;}
+
+
+
+.heading1{ font-size: 60px; color: #232943; font-weight:700;margin:0 0 25px 0; position: relative; padding-bottom: 10px;}
+.heading1 span{ color: #38a64f;}
+
+
+.heading2{ font-size: 60px; color: #232943; font-weight:700;margin:0 0 25px 0; position: relative; padding-bottom: 10px;}
+.heading2 span{ color: #38a64f;}
+
+
+.heading3 { font-size: 40px; color: #232943; font-weight: bold;margin:0 0 25px 0;  }
+
+
+
+
+
+
+.map-divided{display: inline-block; width: 100%; text-align: center; background: #38a64f; color: #fff; text-transform: uppercase; padding: 8px 20px; margin-bottom: 30px;}
+.map-divided h3{margin: 0; text-align: center; color: #fff; text-transform: uppercase; font-size: 36px;}
+
+.ourTownSec{width: 100%;}
+.ourTownSec h3{position: relative; font-size: 36px; color: #232943; font-weight: 500; margin-bottom: 15px;}
+.ourTownSec h3:after{position: absolute; left: 0; bottom: 0; content: ""; height: 1px; width: 120px; background: #38a64f;}
+.ourTownSec ul{list-style: none; padding: 0; margin: 0 0 20px;}
+.ourTownSec ul li{display: inline-block; width: 49%; padding-right: 10px; margin-bottom: 6px;}
+.ourTownSec ul li a{display: block; padding: 4px 0;}
+.ourTownSec ul li a:hover{color: #38a64f;}
+
+
+.volunteerSec{background: url(../images/get-involved-inner-bg.jpg) no-repeat; background-position: bottom left; background-size: 60% auto;}
+.volunteerForm{background: #fff; width: 100%; border-radius: 20px; box-shadow: 0 0 12px rgba(0,0,0,0.2); padding: 50px;}
+.volunteerForm label{font-size: 14px;}
+.volunteerForm label span{font-size: 12px;}
+
+.volunteerForm h3{font-size: 36px; color: #000; margin-bottom: 30px;}
+.volunteerForm .checkboxSec{margin-bottom: 20px;}
+.volunteerForm .form-control{border: 1px solid #38a64f; border-radius: 25px; height: 46px;}
+.volunteerForm textarea.form-control{height: 150px;}
+.volunteerForm .row .checkbox{margin-bottom: 15px;}
+.volunteerForm .btnSec{text-align: center; margin-top: 20px;}
+.volunteerForm .btnSec .btn{background: #38a64f;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 25px;
+    height: 40px;
+    cursor: pointer;}
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:767px){
+    .volunteerForm{padding: 30px; 20px;}
+    .volunteerSec{background-size: 250px auto;
+padding-bottom: 210px;}
+    
+    
+}
+
+
+
+
